@@ -1,35 +1,35 @@
-# Mediatation App
+# App Meditação
 
-An app that make you calm, relief, relax, and focus 🧘
+Um aplicativo que deixa você calmo, aliviado, relaxado e focado 🧘
 
 ### Screens
 
 <img src="assets/images/demo.png" />
 
-### Features
+### Características
 
-- Play, resume, stop musics according to your choice
-- English language
-- Simple good looking UI
+- Reproduzir, retomar, parar músicas de acordo com sua escolha
+- English / Portugues linguagem
+- IU simples e bonita
 
 ### Pakages
 
-- audioplayer - for music player
+- audioplayer - para reprodutor de música
 
-### Author
+### Autor
 
-[Phat Panhareach](https://github.com/Re4ch-Jay/)
+[caneto](https://github.com/caneto/)
 
 
-### Usage
+### Uso
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/Re4ch-Jay/Meditation_App.git
+# Clonar este repositório
+$ git clone https://github.com/caneto/app_meditacao.git
 
-# Install dependencies
+# Instalar dependencias
 $ flutter packages get
 
-# Run the app
+# Execute o aplicativo
 $ flutter run
 ```
