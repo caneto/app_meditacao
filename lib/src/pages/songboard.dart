@@ -1,5 +1,6 @@
 // ignore_for_file: use_build_context_synchronously
 
+import 'package:app_meditacao/src/utils/i18n.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 import '../utils/utils.dart';
@@ -122,11 +123,12 @@ class _SongBoardState extends State<SongBoard> {
                 ),
                 RectangleButton(
                   onPressed: () async {
+                    await player.pause();
                     await player.stop();
                     Navigator.pop(context);
                   },
-                  child: const Text(
-                    "GO TO DASHBOARD",
+                  child: Text(
+                    "GO TO DASHBOARD".i18n,
                     style: kButtonTextStyle,
                   ),
                 )
